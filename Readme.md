@@ -99,6 +99,7 @@ The system architecture follows a structured data flow:
 PDF Documents → Processing → Chunking → Embedding → Vector Storage → Query Processing → Retrieval → Re-ranking → Response Generation
 
 Architecture diagrams added to the project report pdf.
+Langchain Model I/O and Data Connection Depiction/Flow diagram added to the jupyter notebook code.
 
 ### Technology Stack
 Python 3.12.7
