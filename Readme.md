@@ -47,39 +47,49 @@ Callbacks: Logging and streaming capabilities for intermediate chain processes
 ### 1. Document Ingestion and Processing
 
 Implementation: PyPDFDirectoryLoader for efficient PDF batch processing from designated directories
+
 Capability: Automated extraction and standardization of insurance policy documents
 
 ### 2. Intelligent Document Segmentation
 
 Method: RecursiveCharacterTextSplitter with hierarchical splitting strategy
+
 Configuration: Parameterized splitting sequence ["\n\n", "\n", " ", ""] to preserve semantic coherence
+
 Objective: Maintain paragraph, sentence, and word integrity for optimal embedding generation
 
 ### 3. Vector Embedding Generation
 
 Service: OpenAI Embeddings for high-quality vector representations
+
 Capabilities: Comprehensive support for similarity search, text comparison, and semantic analysis operations
+
 Architecture: Dual-method implementation for document embedding and query embedding
 
 ### 4. Vector Storage and Caching
 
 Database: ChromaDB for persistent vector storage with optimized retrieval performance
+
 Enhancement: CacheBackedEmbeddings for improved computational efficiency
 
 ### 5. Document Retrieval System
 
 Primary Interface: VectorStoreRetriever for unstructured query processing
+
 Functionality: Document-language model integration with flexible retrieval mechanisms beyond traditional vector store limitations
 
 ### 6. Result Re-ranking Enhancement
 
 Technology: HuggingFace Cross Encoder with BAAI/bge-reranker-base model
+
 Purpose: Relevance optimization through query-response pair scoring for improved result accuracy
 
 ### 7. Chain Integration and Response Generation
 
 Implementation: LangChain Chains for multi-component integration
+
 Configuration: Custom prompt template (rlm/rag-prompt) from LangChain Hub for RAG-specific optimization
+
 Capability: Complex workflow construction through chain composition and component integration
 
 ## System Workflow Visualization
@@ -90,7 +100,9 @@ Architecture diagrams available in: ./images/architecture-step1.png and ./images
 
 ### Technology Stack
 Python 3.12.7
+
 languageOpenAI 1.93.0
+
 LangChain 0.3.26
 
 
