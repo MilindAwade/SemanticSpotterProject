@@ -95,9 +95,10 @@ Capability: Complex workflow construction through chain composition and componen
 
 ## System Workflow Visualization
 The system architecture follows a structured data flow:
-PDF Documents → Processing → Chunking → Embedding → Vector Storage → 
-Query Processing → Retrieval → Re-ranking → Response Generation
-Architecture diagrams available in: ./images/architecture-step1.png and ./images/architecture-step2.png
+
+PDF Documents → Processing → Chunking → Embedding → Vector Storage → Query Processing → Retrieval → Re-ranking → Response Generation
+
+Architecture diagrams added to the project report pdf.
 
 ### Technology Stack
 Python 3.12.7
