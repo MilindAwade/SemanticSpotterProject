@@ -7,9 +7,13 @@ A comprehensive Retrieval-Augmented Generation (RAG) system designed for the ins
 #### Table of Contents
 
 Project Overview
+
 Technical Approach
+
 System Architecture
+
 Technology Stack
+
 Contact Information
 
 ## Project Overview
