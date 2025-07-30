@@ -1,6 +1,7 @@
-# Semantic Spotter Project 
-## Submitted by: Milind Awade 
-## Batch - ML-C67
+# Semantic Spotter Project
+
+### Submitted by: Milind Awade 
+### Batch - ML-C67
 
 A comprehensive Retrieval-Augmented Generation (RAG) system designed for the insurance domain, leveraging LangChain framework for intelligent document querying.
 
